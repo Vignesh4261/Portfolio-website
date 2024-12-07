@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website - By Vignesh</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    
+
+</head>
+<body>
+    <div id="header2">
+        
+    </div>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div style="font-size: 30px; margin-top: -30px;" id="headerName"> <span style="color: #ff004f;">V</span>ignesh</div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text" style="margin-top: 70px;">
+                <h1>Hi,I'm <span> N.Vignesh </span><br>and I'm a Java <br>Full Stack Developer </h1>
+            </div>
+        </div>
+        
+    </div>
+<!-- -------------- about ----------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./background-image.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title" >About Me</h1>
+                <p>I am N.Vignesh, a passionate developer with expertise in Java, SQL, and web development technologies like HTML, CSS, and JavaScript. I specialize in creating dynamic and user-friendly applications, focusing on database management and programming. With certifications in SQL and Java, I am committed to continuous learning and always eager to take on new challenges. My strong problem-solving skills and adaptability help me contribute effectively to team goals and project success. Outside of work, I enjoy reading, watching movies, and listening to music.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Proficient in front-end development and web design</li>
+                        <li><span>SQL </span><br>Skilled in database management and query optimization</li>
+                        <li><span>Java</span><br>Familiar with Java programming and object-oriented concepts</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2018</span><br>SSC from Kakatiya high school Nizamabad</li>
+                        <li><span>2021</span><br>Diploma from Government Polytechnic College Nizamabad</li>
+                        <li><span>2024</span><br>Btech from Kshatriya College of Engineering Armoor</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="projects">
+                    <ul>
+                        <li><span>Netflix Clone</span><br>Designed a responsive Netflix clone featuring movie carousels and sectioned content areas
+                            to showcase trending movies and TV shows</li>
+                        <li><span>Portfolio Website</span><br>Designed and developed a visually appealing and user-friendly portfolio website to showcase
+                            personal skills, projects</li>
+                        <li><span>Calculator</span><br>Developed a functional and responsive calculator using HTML, CSS, and JavaScript, implementing basic arithmetic operations with an intuitive user interface</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------- Services ------------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title" >My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>I craft dynamic, responsive, and user-friendly websites tailored to deliver seamless online experiences.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java Developer</h2>
+                    <p>I specialize in creating efficient, scalable, and robust Java based solutions tailored to meet diverse business needs</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>SQL Developer</h2>
+                    <p>I design, optimize, and manage efficient SQL databases to streamline data processing and support business intelligence.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- -----------------------certifications---------------------------------- -->
+<div id="certifications">
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1>
+        <div class="work-list">
+            <div class="work">
+                <!-- <img src="images/work-1.png" alt=""> -->
+                <div class="layer">
+                    <h3 style="color: #ff004f;" >Java Programming</h3>
+                    <p style="margin-top: 5px; color: #ababab;">Certified Java Developer from infosys</p>
+                    <!-- <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <!-- <img src="images/work-2.png" alt=""> -->
+                <div class="layer">
+                    <h3 style="margin-top: 5px; color: #ff004f;" >SQL</h3>
+                    <p style="margin-top: 5px; color: #ababab;">Certified SQL developer from Cognitive Classes</p>
+                    <!-- <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <!-- <img src="images/work-3.png" alt=""> -->
+                <div class="layer">
+                    <h3 style="margin-top: 5px; color: #ff004f;" >Front End Development</h3>
+                    <p style="margin-top: 5px; color: #ababab; margin-bottom: 15px;">Certified Front End Developer From Simpli learn</p>
+                    <!-- <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+        </div>
+        <!-- <a href="#" class="btn">See more</a> -->
+    </div>
+</div>
+
+
+<!-- -------------- contact ---------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i> Vignesh4261@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i>+91 9347837046</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/vignesh-n-274621314/?trk=opento_sprofile_details"><i class="fa-brands fa-linkedin"></i> &nbsp;Linked in</a>
+                </div>
+                <a href="./my-resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right" style="margin-top: 15px;">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required id="">
+                    <input type="email" name="Email" placeholder="Your Email" required id="">
+                    <textarea name="Message" rows="6" placeholder="Your Message" id=""></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &copy Vignesh. Made with <i class="fa-solid fa-heart"></i> by N.Vignesh</p>
+    </div>
+ </div>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyU62ciURi3DRh2lyECdUZPFhOVKtJnzTrpqDCJoqdtYR0B0FIwQRbjh5Z0OmSlLq7I/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
